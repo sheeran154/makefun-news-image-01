@@ -4,6 +4,8 @@
 // Microsoft outage day two; US envoys meet Zelensky; China's Pacific drills;
 // Qatar–Turkey defence pact) and an IEA oil-surplus strip at the bottom.
 // The entry is the bundled image, copied to the output as entry.png.
+// (The file is JPEG bytes under a .png name, which the gate allows: it is
+// told apart by its first bytes, and the name stays entry.png either way.)
 import { copyFileSync, mkdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 
